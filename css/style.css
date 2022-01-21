@@ -22,12 +22,22 @@ img {
 
 .red {
      background-color: red;
+     color: yellow;
+}
+
+.green {
+    background-color: green;
+    color: yellow;
+}
+
+.yellow {
+    background-color: yellow;
+    color: green;
 }
 
 .contenitore div {
     position:relative;
-    color: yellow;
     text-align: center;
     position: relative;
-    top: 15%;
+    top: 20%;
 }
