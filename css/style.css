@@ -62,5 +62,9 @@ button {
 
 button:hover {
     box-shadow: 10px 10px 10px black;
-    background-color: blue;
+ 
+}
+
+button:active {
+       background-color: blue;
 }
