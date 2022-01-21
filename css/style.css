@@ -1,6 +1,9 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
     margin:0;
-
 }
 
 .contenitore {
@@ -40,4 +43,24 @@ img {
     text-align: center;
     position: relative;
     top: 20%;
+}
+
+nav {
+    position: fixed;
+    left: 80%;
+    top: 5%;
+}
+
+button {
+    border-radius: 50%;
+    border:none;
+    padding:20px;
+    margin-left: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+}
+
+button:hover {
+    box-shadow: 10px 10px 10px black;
+    background-color: blue;
 }
